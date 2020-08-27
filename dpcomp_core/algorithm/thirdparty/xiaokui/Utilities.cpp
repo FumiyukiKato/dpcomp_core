@@ -30,7 +30,7 @@ void Utilities::tokenize(const string& str,vector<double>& tokens,const string& 
 
 void Utilities::readFile(const string file_name, vector<double>& histogram){
 	ifstream in(file_name.c_str(), ios_base::in);
-	if(!in){
+	if(!in){ // https://stackoverflow.com/questions/32589155/stdofstream-null-wont-compile-for-std-gnu11-any-workaround 
 		cout << "Error:open data file error.\n";
 		getchar();
 		exit(0);        
