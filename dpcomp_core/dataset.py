@@ -41,8 +41,15 @@ filenameDict = {
     "MDSALARY-OVERT"    : '2D/MDSalary2D_256_256.npy',
     "LOAN-FUNDED-INCOME": '2D/Loan_2D_256_256.npy',
     "STROKE"            : '2D/Stroke_2D_256_256.npy',
-    "TWITTER"           : '2D/twitter_256_256.npy'
-    }
+    "TWITTER"           : '2D/twitter_256_256.npy',
+    
+    # artificial
+    'TEST-1d-UNIFORM' : '1D/test-1d-million.npy',
+    'TEST-1d-NORMAL' : '1D/test-1d-normal-milion.npy',
+    
+    'TEST-2d-UNIFORM' : '2D/test-2d-million.npy',
+    'TEST-2d-NORMAL' : '2D/test-2d-normal-milion.npy'
+}
 
 
 
