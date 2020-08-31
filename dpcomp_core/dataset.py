@@ -44,10 +44,10 @@ filenameDict = {
     "TWITTER"           : '2D/twitter_256_256.npy',
     
     # artificial
-    'TEST-1d-UNIFORM' : '1D/test-1d-million.npy',
+    'TEST-1d-UNIFORM' : '1D/test-1d-milion.npy',
     'TEST-1d-NORMAL' : '1D/test-1d-normal-milion.npy',
     
-    'TEST-2d-UNIFORM' : '2D/test-2d-million.npy',
+    'TEST-2d-UNIFORM' : '2D/test-2d-milion.npy',
     'TEST-2d-NORMAL' : '2D/test-2d-normal-milion.npy'
 }
 
